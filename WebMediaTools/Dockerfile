@@ -21,4 +21,4 @@ RUN dotnet publish "WebMediaTools.csproj" -c Release -o /app/publish /p:UseAppHo
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "WebMediaTools.dll"]ll jupyterlab
+ENTRYPOINT ["dotnet", "WebMediaTools.dll"]

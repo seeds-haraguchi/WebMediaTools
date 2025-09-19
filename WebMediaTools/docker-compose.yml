@@ -10,4 +10,4 @@ services:
     volumes:
       # 動画を保存するディレクトリ
       # [動画を保存するホスト側のディレクトリ]:/mediabox
-      - C:\mediabox:/mediabox
+      - ./mediabox:/mediabox
