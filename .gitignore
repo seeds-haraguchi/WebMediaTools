@@ -364,3 +364,8 @@ FodyWeavers.xsd
 /WebMediaTools/ffmpeg
 /WebMediaTools/ffprobe
 /WebMediaTools/yt-dlp
+
+# add download directory
+WebMediaTools/mediabox/*
+!.gitkeep
+
